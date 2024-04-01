@@ -40,7 +40,7 @@ The portfolio is deployed on Netlify. You can access it [here](#).
 
 ## Preview
 
-![React Portfolio Preview](./preview.png)
+![React Portfolio Preview](./public/images/projects/app.png)
 
 ## Acknowledgements
 
