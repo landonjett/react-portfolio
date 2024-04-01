@@ -1,0 +1,99 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #E36858);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #ffffff);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  color: #3c6e71;
+}
+
+.read-the-docs {
+  color: #284b63;
+}
+
+.active {
+  font-weight: bold;
+  color: #656E77;
+} 
+
+.navbar {
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center;  
+  padding: 5px; 
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+} 
+
+.navbar li {
+  margin: 0 10px; 
+}
+
+header {
+  background-color: #0C0D0D;
+  position: fixed; 
+  top: 0;
+  left: 0; 
+  width: 100%;  
+  padding: 15px;
+  color: #353535;
+  padding: 10px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-auto-rows: minmax(300px, auto); /* Each row will have a minimum height of 300px */
+  gap: 20px; /* Adjust the gap between projects */
+  margin-top: 70px;
+  
+}
+
+
+

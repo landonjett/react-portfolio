@@ -1,13 +1,20 @@
 import React from 'react';
+import './styles.css'; // Import your CSS file
 
 function AboutMe() {
   return (
     <div>
       <h2>About Me</h2>
-      <div>
-        <img src="/avatar.jpg" alt="Avatar" /> 
+      <div className="about-me-content">  {/* Added class to parent container */}
+        <div className="image-container"> {/* Added a container for the image */}
+          <img 
+            src="/public/images/projects/pic.JPG" 
+            alt="Landon Jett" 
+            className="profile-image" 
+          /> 
+        </div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pretium mauris sed lacus convallis, non venenatis elit consectetur. Maecenas posuere enim id lectus tempor, ut dapibus velit feugiat. 
+          Software sales Account Executive turned Full-Stack Software Engineer. 
         </p>
       </div>
     </div>

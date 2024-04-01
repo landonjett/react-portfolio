@@ -1,12 +1,11 @@
-import * as React from 'react';
-import { Link } from 'react-router-dom';
-import Navigation from './Navigation';
+import React from 'react';
+import Navigation from '../components/Navigation';
 
 function Header() {
   return (
     <header>
-      <div>
-        <h1>My Portfolio</h1>
+      <div className="container"> 
+        <h1>Landon Jett</h1>
         <Navigation />
       </div>
     </header>

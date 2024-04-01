@@ -1,0 +1,28 @@
+/* styles.css */
+.project-image {
+    width: 180px; /* Adjust the width as needed */
+    height: auto;
+  }
+
+  .profile-image { 
+    max-width: 100%; 
+    height: auto;  
+    display: block; 
+  }
+  
+  /* Optional media query for additional resizing */
+  @media (max-width: 768px) {
+    .profile-image {
+      max-width: 80%; 
+    }
+  }
+
+  .about-me-content {
+    text-align: center; /* Center all elements within */
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the image */
+  }
+  

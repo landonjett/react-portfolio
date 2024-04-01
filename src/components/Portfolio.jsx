@@ -1,14 +1,52 @@
 import React from 'react';
-import Project from './Project';
+import Project from './Project'; 
+import './styles.css';
+
+
 
 function Portfolio() {
-  // Example project data - Replace with your actual data
+  // Sample project data - replace with your actual portfolio projects
   const projects = [
     {
-      title: 'Project 1',
-      deployedLink: 'https://your-deployed-project1.com', 
-      githubLink: 'https://github.com/your-username/project1',
-      image: '/project1.jpg' // Assumes 'project1.jpg' is in your 'public' folder
+      title: 'SDR Sales Tracker',
+      deployedLink: 'https://landonjett.github.io/sdr-sql-tracker/',
+      githubLink: 'https://github.com/landonjett/sdr-sql-tracker',
+      image: '../../public/images/projects/tracker.png'
+    },
+
+    {
+      title: 'Global Date night Recipe generator',
+      deployedLink: 'https://landonjett.github.io/date-night-recipe-generator/',
+      githubLink: 'https://github.com/landonjett/date-night-recipe-generator',
+    image: '../../public/images/projects/recipe.png'
+    },
+
+    {
+      title: 'Weather Dashboard',
+      deployedLink: 'https://landonjett.github.io/weather-dashboard/',
+      githubLink: 'https://github.com/landonjett/weather-dashboard',
+    image: '../../public/images/projects/weather.png' 
+    },
+
+    {
+      title: 'Javascript Countdown Quiz',
+      deployedLink: 'https://landonjett.github.io/js-countdown-quiz/',
+      githubLink: 'https://github.com/landonjett/js-countdown-quiz',
+    image: '../../public/images/projects/quiz.png' 
+    },
+
+    {
+      title: 'Generate a Password',
+      deployedLink: 'https://landonjett.github.io/generate-a-password/',
+      githubLink: 'https://github.com/landonjett/generate-a-password',
+    image: '../../public/images/projects/password.png' 
+    },
+
+    {
+      title: 'Workout Locker Fitness Tracker',
+      deployedLink: 'https://landonj-54fa3a128ea3.herokuapp.com/',
+      githubLink: 'https://github.com/landonjett/workout-locker',
+    image: '../../public/images/projects/Workout.png' 
     },
     // Add more project objects with correct details
   ];
@@ -16,7 +54,7 @@ function Portfolio() {
   return (
     <div>
       <h2>Portfolio</h2>
-      <div className="project-container"> {/* Add a container for styling */}
+      <div className="project-container">
         {projects.map((project, index) => (
           <Project
             key={index}

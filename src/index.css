@@ -1,0 +1,113 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+
+  color-scheme: light dark;
+  background-color: #B7B9A8;
+  color: #284b63;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+  color: #E36858;
+  font-size: 1em;
+}
+a:hover {
+  color: #0C0D0D;
+}
+header a:hover {
+  color:#E36858;
+}
+
+header a {
+  color:#D1B5A3;
+  font-size: 1.25em;
+}
+
+p a {
+  color: #E36858;
+  font-size: medium;
+}
+p a:hover {
+  color: #0C0D0D;
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  color: #d9d9d9;
+  padding-top: calc(50px + 4vh);
+  background-color: #d9d9d9; /* Set the background color */
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1.1;
+  color: #E36858;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.8em 1.5em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #E36858;
+  border-color: #0C0D0D;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #E36858;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light), (min-width: 768px) {
+  :root {
+    color: #E36858;
+    background-color: #E36858;
+    font-size: 18px;
+  }
+  a:hover {
+    color: #3c6e71;
+  }
+  button {
+    background-color: #E36858;
+  }
+}
+h1, h2, h3 { 
+  font-family: 'Lora', serif; 
+  color: #E36858;
+}
+
+label {
+  color: #0C0D0D;
+}
+
+footer p {
+  color: #0C0D0D;
+}
+p {
+ color: #0C0D0D;
+ font-size: large;
+}
+
+li {
+  color: #0C0D0D;
+}

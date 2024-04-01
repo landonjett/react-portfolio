@@ -1,12 +1,18 @@
+// Project.jsx
 import React from 'react';
 
 function Project({ title, deployedLink, githubLink, image }) {
   return (
-    <div>
+    <div className="project">
       <h3>{title}</h3>
-      <img src={image} alt={title} />
-      <p>Deployed Link: <a href={deployedLink} target="_blank" rel="noopener noreferrer">{deployedLink}</a></p>
-      <p>GitHub Repository: <a href={githubLink} target="_blank" rel="noopener noreferrer">{githubLink}</a></p>
+      <a href={deployedLink} target="_blank" rel="noopener noreferrer">
+        <img src={image} alt={title} className="project-image" />
+      </a>
+      <div>
+        <a href={githubLink} target="_blank" rel="noopener noreferrer">
+          View Code
+        </a>
+      </div>
     </div>
   );
 }
