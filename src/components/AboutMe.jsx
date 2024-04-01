@@ -8,7 +8,7 @@ function AboutMe() {
       <div className="about-me-content">  {/* Added class to parent container */}
         <div className="image-container"> {/* Added a container for the image */}
           <img 
-            src="/public/images/projects/pic.JPG" 
+            src="/public/images/pic.jpg" 
             alt="Landon Jett" 
             className="profile-image" 
           /> 

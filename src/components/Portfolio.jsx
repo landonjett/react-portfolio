@@ -11,42 +11,42 @@ function Portfolio() {
       title: 'SDR Sales Tracker',
       deployedLink: 'https://landonjett.github.io/sdr-sql-tracker/',
       githubLink: 'https://github.com/landonjett/sdr-sql-tracker',
-      image: '../../public/images/projects/tracker.png'
+      image: '/public/images/tracker.png'
     },
 
     {
       title: 'Global Date night Recipe generator',
       deployedLink: 'https://landonjett.github.io/date-night-recipe-generator/',
       githubLink: 'https://github.com/landonjett/date-night-recipe-generator',
-    image: '../../public/images/projects/recipe.png'
+    image: '/public/images/recipe.png'
     },
 
     {
       title: 'Weather Dashboard',
       deployedLink: 'https://landonjett.github.io/weather-dashboard/',
       githubLink: 'https://github.com/landonjett/weather-dashboard',
-    image: '../../public/images/projects/weather.png' 
+    image: '/public/images/weather.png' 
     },
 
     {
       title: 'Javascript Countdown Quiz',
       deployedLink: 'https://landonjett.github.io/js-countdown-quiz/',
       githubLink: 'https://github.com/landonjett/js-countdown-quiz',
-    image: '../../public/images/projects/quiz.png' 
+    image: '/public/images/quiz.png' 
     },
 
     {
       title: 'Generate a Password',
       deployedLink: 'https://landonjett.github.io/generate-a-password/',
       githubLink: 'https://github.com/landonjett/generate-a-password',
-    image: '../../public/images/projects/password.png' 
+    image: '/public/images/password.png' 
     },
 
     {
       title: 'Workout Locker Fitness Tracker',
       deployedLink: 'https://landonj-54fa3a128ea3.herokuapp.com/',
       githubLink: 'https://github.com/landonjett/workout-locker',
-    image: '../../public/images/projects/Workout.png' 
+    image: '/public/images/tracker.png' 
     },
     // Add more project objects with correct details
   ];
