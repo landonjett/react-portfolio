@@ -1,14 +1,14 @@
 import React from 'react';
-import './styles.css'; // Import your CSS file
+import './styles.css'; 
 
 function AboutMe() {
   return (
     <div>
       <h2>About Me</h2>
-      <div className="about-me-content">  {/* Added class to parent container */}
-        <div className="image-container"> {/* Added a container for the image */}
+      <div className="about-me-content">
+        <div className="image-container"> 
           <img 
-            src="/public/images/pic.jpg" 
+            src="/images/pic.jpg" // Updated path
             alt="Landon Jett" 
             className="profile-image" 
           /> 
