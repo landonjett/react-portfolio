@@ -46,7 +46,7 @@ function Portfolio() {
       title: 'Workout Locker Fitness Tracker',
       deployedLink: 'https://landonj-54fa3a128ea3.herokuapp.com/',
       githubLink: 'https://github.com/landonjett/workout-locker',
-    image: '/images/tracker.png' 
+    image: '/images/Workout.png' 
     },
     // Add more project objects with correct details
   ];
